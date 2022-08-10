@@ -1,0 +1,247 @@
+/* GENERAL */
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+    font-family: 'Proxima Nova Light', sans-serif;
+    font-weight: 300;
+    /* background: #000 !important;
+        color: #0f0 !important;
+        outline: solid #f00 1px !important; */
+}
+
+.mgn-lr-55px {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.mgn-b-70px {
+    margin-bottom: 70px;
+}
+
+.mgn-tb-70px {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.mgn-t-70px {
+    margin-top: 70px;
+}
+
+.pdg-t-70px {
+    padding-top: 70px;
+}
+
+.pdg-b-70px {
+    padding-bottom: 70px;
+}
+
+.pdg-tb-70px {
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+
+.max-width-container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.max-width-wrapper {
+    max-width: 1330px;
+}
+
+.horizontal-divider-cont {
+    width: 100%;
+    height: 1px;
+        background: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.txt-cntr {
+    text-align: center;
+}
+
+.budrevich-btn {
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    padding: 1.21em 1.683em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nova-font-18px {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.nova-font-22px {
+    font-size: 22px;
+    line-height: 32px;;
+}
+
+.budrevich-btn-light {
+    color: white;
+    border: 1px solid white;
+}
+
+.budrevich-btn-dark {
+    color: black;
+    border: 1px solid black;
+}
+
+.title-h2 h2 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 55px;
+    font-family: 'Lenora Medium Trial', sans-serif;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.flex-box-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.wd-33 {
+    width: 33.33333%;
+}
+
+.wd-25 {
+    width: 25%;
+}
+
+.wd-50 {
+    width: 50%;
+}
+
+.wd-40 {
+    width: 40%;
+}
+
+.wd-60 {
+    width: 60%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-h-cntr {
+    justify-content: center;
+}
+
+.d-flex-v-cntr {
+    align-items: center;
+}
+
+.bg-gray {
+    background: #F2F2F2;
+}
+
+/* HEADER SECTION */
+.hero-header-section-container {
+    height: 100%;
+    min-height: 768px;
+    align-items: center;
+    display: flex;
+}
+
+.hero-header-section-bg {
+    background: url('../img/bg_image.jpg') center/cover no-repeat;
+}
+
+.hero-header-h1 {
+    font-family: 'Lenora Medium Trial', sans-serif;
+    color: white;
+    font-size: 80px;
+    line-height: 1;
+}
+
+.hero-header-title-box h2 {
+    font-size: 22px;
+    line-height: 32px;
+    font-family: 'Proxima Nova Light', sans-serif;
+    color: white;
+    max-width: 420px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    margin: 0;
+}
+
+/* SHOP BY CATEGORY */
+.category-section-container .d-flex {
+    column-gap: 28px;
+}
+
+.category-section-container h3 {
+    font-family: 'Proxima Nova Light', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+/* RING SHOWCASE */
+.ring-showcase-wrapper {
+    display: flex;
+}
+
+.ring-showcase-box {
+    width: 40%;
+}
+
+.ring-showcase-box:last-child {
+    width: 60%;
+}
+
+.ring-showcase-box h2 {
+    font-size: 80px;
+    line-height: 1;
+    font-family: 'Lenora Medium Trial', sans-serif;
+    margin-top: 0;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.ring-showcase-box p {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: 'Proxima Nova Light', sans-serif;
+}
+
+.ring-showcase-wrapper .budrevich-btn {
+    margin-top: 85px;
+}
+
+/* WHY CHOOSE US */
+.why-choose-container h3 {
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+
+@media (max-width:1440px) and (min-width:1280px) {
+
+}
+
+@media (max-width:1280px) and (min-width:768px) {
+
+}
+
+@media (max-width:768px) and (min-width:320px) {
+
+}
