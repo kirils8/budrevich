@@ -18,6 +18,12 @@ html {
     margin-left: 55px;
     margin-right: 55px;
 }
+
+.mgn-tb-128px {
+    margin-top: 128px;
+    margin-bottom: 128px;
+}
+
 .mgn-b-96px {
     margin-bottom: 96px;
 }
@@ -130,6 +136,12 @@ img {
     font-family: 'Lenora Medium Trial', sans-serif;
 }
 
+.lenora-font-40px-medium {
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Lenora Medium Trial', sans-serif;
+}
+
 .pos-relative {
     position: relative;
 }
@@ -144,15 +156,11 @@ img {
     border: 1px solid black;
 }
 
-.budrevich-btn-dark {
-    color: white;
-    border: 1px solid white;
-}
-
 .title-center-h2 h2 {
     text-align: center;
     font-size: 40px;
     line-height: 1;
+    line-height: 48px;
     margin-bottom: 55px;
     font-family: 'Lenora Medium Trial', sans-serif;
     margin-top: 0;
@@ -194,12 +202,20 @@ img {
     justify-content: center;
 }
 
+.d-flex-j-s-between {
+    justify-content: space-between;
+}
+
 .d-flex-v-cntr {
     align-items: center;
 }
 
 .d-flex-j-right {
     justify-content: right;
+}
+
+.d-flex-a-f-start {
+    align-items: flex-start;
 }
 
 .d-flex-v-end {
@@ -245,6 +261,11 @@ h2.title-left-h2 {
 
 .d-flex-direction-col {
     flex-direction: column;
+}
+
+.subtitle-center-p p {
+    margin-top: 0;
+    margin-bottom: 48px;
 }
 
 /* HEADER SECTION */
@@ -397,11 +418,6 @@ h2.title-left-h2 {
     background: url(../img/Your-Invintation.jpg) center/cover no-repeat;
 }
 
-.invintation-section .subtitle-center-p p {
-    margin-top: 0;
-    margin-bottom: 48px;
-}
-
 /* OUR FAVOURITES */
 .our-favourites-section {
     --swiper-theme-color: black;
@@ -440,10 +456,10 @@ h2.title-left-h2 {
 }
 
 .favourite-swiper-title {
-height: 60px;
-display: flex;
-justify-content: center;
-align-items: flex-end;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .favourite-swiper-title h3 {
@@ -456,6 +472,121 @@ align-items: flex-end;
 
 .favourite-swiper-box {
     flex: 1;
+}
+
+/* Google Reviews Section */
+.reviews-people-container {
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    margin: 50px 0 35px;
+}
+
+.reviews-header-container .title-center-h2 h2 {
+    margin-bottom: 48px;
+    text-align: left;
+}
+
+.reviews-header-container p {
+    margin: 0;
+}
+
+.reviews-header-google-badge {
+    justify-content: flex-end;
+    width: 375px;
+}
+
+.reviews-header-google-badge img {
+    max-width: 80%;
+}
+
+.reviews-header-container {
+    margin-bottom: 160px;
+}
+
+.reviews-people-box {
+    background: #F6F6F6;
+    padding: 32px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.reviews-people-stars {
+    display: block;
+    width: 100px;
+    height: 15px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEzLjYyOSIgdmlld0JveD0iMCAwIDk4LjE4IDEzLjYyOSIgd2lkdGg9Ijk4LjE4IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiMzMzMiPjxwYXRoIGQ9Im0xNC4yOTEgNS4yODJhLjYyLjYyIDAgMCAxIC0uMjIzLjQxMmwtMy4xMTggMy4wNC43MzkgNC4yOTRhMS4yNzYgMS4yNzYgMCAwIDEgLjAwOS4xNzIuNTA2LjUwNiAwIDAgMSAtLjA5LjMuMy4zIDAgMCAxIC0uMjYyLjEyNS42OTMuNjkzIDAgMCAxIC0uMzQzLS4xbC0zLjg1OC0yLjAyNS0zLjg1NiAyLjAyNmEuNzI5LjcyOSAwIDAgMSAtLjM0My4xLjMxMi4zMTIgMCAwIDEgLS4yNy0uMTI1LjUwOC41MDggMCAwIDEgLS4wOTEtLjMgMS40IDEuNCAwIDAgMSAuMDE3LS4xNzJsLjczOS00LjI5NC0zLjEyNi0zLjA0MWEuNjU0LjY1NCAwIDAgMSAtLjIxNS0uNDEycTAtLjMxOC40ODEtLjM5NWw0LjMxMi0uNjI3IDEuOTMyLTMuOTA4cS4xNjMtLjM1Mi40Mi0uMzUydC40MjEuMzUybDEuOTM0IDMuOTA4IDQuMzExLjYyN3EuNDgxLjA3Ny40ODEuMzk1eiIvPjxwYXRoIGQ9Im0xNC4yOTEgNS4yODJhLjYyLjYyIDAgMCAxIC0uMjIzLjQxMmwtMy4xMTggMy4wNC43MzkgNC4yOTRhMS4yNzYgMS4yNzYgMCAwIDEgLjAwOS4xNzIuNTA2LjUwNiAwIDAgMSAtLjA5LjMuMy4zIDAgMCAxIC0uMjYyLjEyNS42OTMuNjkzIDAgMCAxIC0uMzQzLS4xbC0zLjg1OC0yLjAyNS0zLjg1NiAyLjAyNmEuNzI5LjcyOSAwIDAgMSAtLjM0My4xLjMxMi4zMTIgMCAwIDEgLS4yNy0uMTI1LjUwOC41MDggMCAwIDEgLS4wOTEtLjMgMS40IDEuNCAwIDAgMSAuMDE3LS4xNzJsLjczOS00LjI5NC0zLjEyNi0zLjA0MWEuNjU0LjY1NCAwIDAgMSAtLjIxNS0uNDEycTAtLjMxOC40ODEtLjM5NWw0LjMxMi0uNjI3IDEuOTMyLTMuOTA4cS4xNjMtLjM1Mi40Mi0uMzUydC40MjEuMzUybDEuOTM0IDMuOTA4IDQuMzExLjYyN3EuNDgxLjA3Ny40ODEuMzk1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjAuOTcyKSIvPjxwYXRoIGQ9Im0xNC4yOTEgNS4yODJhLjYyLjYyIDAgMCAxIC0uMjIzLjQxMmwtMy4xMTggMy4wNC43MzkgNC4yOTRhMS4yNzYgMS4yNzYgMCAwIDEgLjAwOS4xNzIuNTA2LjUwNiAwIDAgMSAtLjA5LjMuMy4zIDAgMCAxIC0uMjYyLjEyNS42OTMuNjkzIDAgMCAxIC0uMzQzLS4xbC0zLjg1OC0yLjAyNS0zLjg1NiAyLjAyNmEuNzI5LjcyOSAwIDAgMSAtLjM0My4xLjMxMi4zMTIgMCAwIDEgLS4yNy0uMTI1LjUwOC41MDggMCAwIDEgLS4wOTEtLjMgMS40IDEuNCAwIDAgMSAuMDE3LS4xNzJsLjczOS00LjI5NC0zLjEyNi0zLjA0MWEuNjU0LjY1NCAwIDAgMSAtLjIxNS0uNDEycTAtLjMxOC40ODEtLjM5NWw0LjMxMi0uNjI3IDEuOTMyLTMuOTA4cS4xNjMtLjM1Mi40Mi0uMzUydC40MjEuMzUybDEuOTM0IDMuOTA4IDQuMzExLjYyN3EuNDgxLjA3Ny40ODEuMzk1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDEuOTQ0KSIvPjxwYXRoIGQ9Im0xNC4yOTEgNS4yODJhLjYyLjYyIDAgMCAxIC0uMjIzLjQxMmwtMy4xMTggMy4wNC43MzkgNC4yOTRhMS4yNzYgMS4yNzYgMCAwIDEgLjAwOS4xNzIuNTA2LjUwNiAwIDAgMSAtLjA5LjMuMy4zIDAgMCAxIC0uMjYyLjEyNS42OTMuNjkzIDAgMCAxIC0uMzQzLS4xbC0zLjg1OC0yLjAyNS0zLjg1NiAyLjAyNmEuNzI5LjcyOSAwIDAgMSAtLjM0My4xLjMxMi4zMTIgMCAwIDEgLS4yNy0uMTI1LjUwOC41MDggMCAwIDEgLS4wOTEtLjMgMS40IDEuNCAwIDAgMSAuMDE3LS4xNzJsLjczOS00LjI5NC0zLjEyNi0zLjA0MWEuNjU0LjY1NCAwIDAgMSAtLjIxNS0uNDEycTAtLjMxOC40ODEtLjM5NWw0LjMxMi0uNjI3IDEuOTMyLTMuOTA4cS4xNjMtLjM1Mi40Mi0uMzUydC40MjEuMzUybDEuOTM0IDMuOTA4IDQuMzExLjYyN3EuNDgxLjA3Ny40ODEuMzk1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNjIuOTE3KSIvPjxwYXRoIGQ9Im0xNC4yOTEgNS4yODJhLjYyLjYyIDAgMCAxIC0uMjIzLjQxMmwtMy4xMTggMy4wNC43MzkgNC4yOTRhMS4yNzYgMS4yNzYgMCAwIDEgLjAwOS4xNzIuNTA2LjUwNiAwIDAgMSAtLjA5LjMuMy4zIDAgMCAxIC0uMjYyLjEyNS42OTMuNjkzIDAgMCAxIC0uMzQzLS4xbC0zLjg1OC0yLjAyNS0zLjg1NiAyLjAyNmEuNzI5LjcyOSAwIDAgMSAtLjM0My4xLjMxMi4zMTIgMCAwIDEgLS4yNy0uMTI1LjUwOC41MDggMCAwIDEgLS4wOTEtLjMgMS40IDEuNCAwIDAgMSAuMDE3LS4xNzJsLjczOS00LjI5NC0zLjEyNi0zLjA0MWEuNjU0LjY1NCAwIDAgMSAtLjIxNS0uNDEycTAtLjMxOC40ODEtLjM5NWw0LjMxMi0uNjI3IDEuOTMyLTMuOTA4cS4xNjMtLjM1Mi40Mi0uMzUydC40MjEuMzUybDEuOTM0IDMuOTA4IDQuMzExLjYyN3EuNDgxLjA3Ny40ODEuMzk1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoODMuODg5KSIvPjwvZz48L3N2Zz4=);
+}
+
+.reviews-people-profile-wrapper {
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    column-gap: 28px;
+}
+
+.reviews-people-profile-img {
+    width: 55px;
+}
+
+.reviews-people-text p {
+    font-size: 22px;
+    line-height: 32px;
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+
+.reviews-people-name p {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+/* Learn More Section */
+.learn-more-heading-cont {
+    background: rgb(36, 41, 65);
+    background: linear-gradient(90deg, rgba(36, 41, 65, 1) 0%, rgba(43, 51, 68, 1) 50%);
+    padding-bottom: 192px;
+}
+
+.learn-more-articles-cont {
+    margin-top: -128px;
+}
+
+.learn-more-heading-cont .title-center-h2 {
+    color: white;
+}
+
+.learn-more-heading-cont .title-center-h2 h2 {
+    margin-bottom: 0;
+}
+
+.learn-more-section h3 {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.learn-more-section p {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.learn-more-section .max-width-wrapper > .d-flex {
+    column-gap: 28px;
+}
+
+/* FAQ */
+.faq-section .title-center-h2 h2 {
+    margin-bottom: 32px;
 }
 
 @media (max-width:1440px) and (min-width:1280px) {
