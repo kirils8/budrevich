@@ -294,7 +294,7 @@ h2.title-left-h2 {
     color: white;
     max-width: 420px;
     padding-bottom: 64px;
-    padding-top: 48px;
+    padding-top: 16px;
     margin: 0;
 }
 
@@ -350,6 +350,7 @@ h2.title-left-h2 {
 /* AS SEEN ON */
 .as-seen-on-cont h5 {
     padding-bottom: 32px;
+    font-weight: 500;
 }
 
 
@@ -584,19 +585,98 @@ h2.title-left-h2 {
     column-gap: 28px;
 }
 
+.learn-more-articles-cont a {
+    max-width: 155px;
+}
+
 /* FAQ */
 .faq-section .title-center-h2 h2 {
     margin-bottom: 32px;
+}
+
+#budrevich-accordion-faq {
+    row-gap: 32px;
+}
+
+#budrevich-accordion-faq li {
+    list-style-type: none;
+    border: 1px solid #000;
+    padding: 32px;
+    border-radius: 5px;
+}
+
+.budrevich-faq-ahead {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.budrevich-faq-ahead.open + .budrevich-faq-abody {
+    max-height: unset;
+    font-size: 16px;
+    position: relative;
+    z-index: 8;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.budrevich-faq-abody {
+    overflow: hidden;
+    max-height: 0;
+    height: auto;
+    color: #111;
+    background: white;
+}
+
+.budrevich-faq-abody p {
+    margin: 0;
+    padding-top: 32px;
+    max-width: 920px;
+}
+
+.budrevich-faq-ahead .faq-minus-icon,
+.budrevich-faq-ahead.open .faq-plus-icon {
+    display: none;
+}
+
+.budrevich-faq-ahead span {
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.budrevich-faq-ahead.open .faq-minus-icon {
+    display: block;
+}
+
+.budrevich-faq-ahead .faq-minus-icon {
+    background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjMiIHZpZXdCb3g9IjAgMCAxOCAzIiB3aWR0aD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTAgLjk5ODUzNWgxNy41djEuNTAwMDA1aC0xNy41eiIgZmlsbD0iIzAwMCIvPjwvc3ZnPg==") center/contain no-repeat;
+}
+
+.budrevich-faq-ahead .faq-plus-icon {
+    background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjE5IiB2aWV3Qm94PSIwIDAgMTggMTkiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTcuNDk5IDguOTg2NTNoLTcuOTg5di03Ljk4Nzk5NWgtMS41MjJ2Ny45ODg5OTVoLTcuOTg4djEuNTIxOTdoNy45ODl2Ny45ODloMS41MjJ2LTcuOTloNy45ODl2LTEuNTIxOTd6IiBmaWxsPSIjMDAwIi8+PC9zdmc+") center/contain no-repeat;
+}
+
+/* Instagram Feed */
+.insta-feed-section h5 {
+    font-weight: bold;
+    padding-bottom: 64px;
+}
+
+.insta-feed-section .insta-feed-img-wrapper {
+    column-gap: 28px;
 }
 
 @media (max-width:1440px) and (min-width:1280px) {
 
 }
 
-@media (max-width:1280px) and (min-width:768px) {
+@media (max-width:1280px) and (min-width:810px) {
 
 }
 
-@media (max-width:768px) and (min-width:320px) {
+@media (max-width:810px) and (min-width:320px) {
 
 }
