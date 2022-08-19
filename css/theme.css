@@ -9,14 +9,14 @@ html {
     box-sizing: inherit;
     font-family: 'Proxima Nova Light', sans-serif;
     font-weight: 300;
-    /* background: #000 !important;
+    background: #000 !important;
         color: #0f0 !important;
-        outline: solid #f00 1px !important; */
+        outline: solid #f00 1px !important;
 }
 
-.mgn-lr-55px {
-    margin-left: 55px;
-    margin-right: 55px;
+.mgn-lr-64px {
+    margin-left: 64px;
+    margin-right: 64px;
 }
 .mgn-tb-128px {
     margin-top: 128px;
