@@ -98,6 +98,7 @@ html {
 img {
     max-width: 100%;
     height: auto;
+    vertical-align: bottom;
 }
 
 .txt-cntr {
@@ -370,6 +371,10 @@ h2.title-left-h2 {
     justify-content: center;
 }
 
+.why-choose-us-img-box svg {
+    vertical-align: bottom;
+}
+
 /* SINGLE QUOTE */
 .single-quote-grid {
     display: grid;
@@ -456,13 +461,13 @@ h2.title-left-h2 {
     grid-template-columns: 5fr 3fr;
 }
 
-.guide-grid-img {
+.guide-grid-first .guide-grid-img {
     position: absolute;
     right: 0;
-    top: -15%;
+    top: -16%;
 }
 
-.guide-grid-img img {
+.guide-grid-first .guide-grid-img img {
     max-width: 640px;
     width: 100%;
     vertical-align: bottom;
@@ -470,25 +475,96 @@ h2.title-left-h2 {
     top: -10%;
 }
 
-/* ABOUT BUDREVICH */
-.about-budrevich-wrapper p {
+.guide-grid-second {
+    display: grid;
+    grid-template-columns: 5fr 1fr 6fr;
+    column-gap: 32px;
+}
+
+.guide-grid-second h5 {
+    margin-top: 0;
+    margin-bottom: 48px; 
+    padding-top: 64px;   
+}
+
+.guide-grid-second-box-img{
+    display: flex;
+    align-items: flex-end;
+}
+
+.guide-grid-second p {
     margin: 0;
+    padding-bottom: 32px;
 }
 
-.about-budrevich-wrapper .large-h2:last-child {
-    margin-bottom: 0;
-    top: 25px;
+/* ABOUT BUDREVICH */
+
+.about-grid-first {
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 7fr 5fr;
 }
 
-.about-budrevich-wrapper > .d-flex {
-    column-gap: 140px;
+.about-grid-first p, .about-grid-second p {margin: 0;}
+
+.about-grid-second {
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 1fr 4fr 1fr 6fr;
 }
 
-.about-budrevich-wrapper .about-full-width-cont {
-    column-gap: 140px;
-    margin-top: 110px;
-    margin-bottom: 110px;
+.about-grid-second-box p {padding-bottom: 128px;}
+
+.about-grid-second-box img {
+    height: 100%;
+    object-fit: cover;
 }
+
+.about-grid-third {
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 1fr 4fr 1fr 6fr;
+    padding-bottom: 96px;
+}
+
+.about-grid-third-box:nth-child(4) {
+    display: flex;
+    align-items: flex-end;
+}
+
+.about-grid-third-box .large-h2 {
+    margin: 0;
+    padding-top: 96px;
+}
+
+.about-grid-four {
+    display: grid;
+    grid-template-columns: 7fr 1fr 4fr;
+    column-gap: 32px;
+}
+
+.about-grid-four p {margin: 0;}
+
+.about-grid-five {
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 1fr 5fr 2fr 4fr;
+    padding-top: 96px;
+}
+
+.about-grid-five-box-img {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.about-grid-five-p {
+    column-gap: 32px;
+    display: grid;
+    grid-template-columns: 11fr 1fr;
+}
+
+.about-grid-five-p p {margin: 0;}
 
 /* INVINTATION */
 .invintation-section {
