@@ -806,7 +806,7 @@ h2.title-left-h2 {
 }
 
 .budrevich-faq-ahead {
-    font-weight: bold;
+    font-family: "Proxima Nova Semibold";
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -834,6 +834,11 @@ h2.title-left-h2 {
     margin: 0;
     padding-top: 32px;
     max-width: 920px;
+}
+
+.budrevich-faq-ahead .faq-minus-icon,
+.budrevich-faq-ahead .faq-plus-icon {
+    cursor: pointer;
 }
 
 .budrevich-faq-ahead .faq-minus-icon,
