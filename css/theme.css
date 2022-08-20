@@ -426,32 +426,48 @@ h2.title-left-h2 {
 
 
 /* GUIDE TO DIAMONDS & GIA */
+.horizontal-divider-guide {
+    margin-bottom: 160px;
+}
+
 .guide-container .budrevich-btn {
     margin-top: 85px;
 }
 
-.guide-wrapper > .d-flex:first-child img {
-    margin-top: -60px;
-
+.guide-grid-first {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    column-gap: 32px;
+    position: relative;
 }
 
-.guide-container .pos-relative {
-    right: -8%;
+.guide-flex-box {
+    display: flex;
+    column-gap: 32px;
 }
 
-.guide-container h5 {
-    margin-bottom: 48px;
-    font-weight: bold;
-    margin-top: 80px;
+.guide-grid-info-box h2, .guide-grid-info-box p {
+    position: relative;
+    z-index: 1;
 }
 
-.guide-wrapper .d-flex:first-child p {
-    margin-top: 0;
-    margin-bottom: 0;
+.guide-grid-box-h2 {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
 }
 
-.guide-wrapper > .d-flex:last-child {
-    column-gap: 150px;
+.guide-grid-img {
+    position: absolute;
+    right: 0;
+    top: -15%;
+}
+
+.guide-grid-img img {
+    max-width: 640px;
+    width: 100%;
+    vertical-align: bottom;
+    right: 0;
+    top: -10%;
 }
 
 /* ABOUT BUDREVICH */
