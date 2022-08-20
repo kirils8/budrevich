@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>UPD [Aug 20] 13:16</title>
+    <title>UPD [Aug 20] 13:53</title>
     <meta name="description" content="Budrevich Shopify Development">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -500,7 +500,7 @@
 
         <!-- Our Favorites -->
         <div class="our-favourites-section">
-            <div class="max-width-container">
+            <div class="max-width-container pos-relative">
                 <div class="max-width-wrapper mgn-lr-64px">
                     <div class="title-center-h2">
                         <h2>Our Favorites</h2>
@@ -544,8 +544,18 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                <div class="budrevich-swiper-arrow-wrapper">
+                    <div class="budrevich-swiper-arrow-next">
+                        <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 1L17 17L1 33" stroke="black" />
+                        </svg>
+                    </div>
+                    <div class="budrevich-swiper-arrow-prev">
+                        <svg width="20" height="36" viewBox="0 0 20 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17 33L1 17L17 1" stroke="black" />
+                        </svg>
                     </div>
                 </div>
             </div>
@@ -1207,13 +1217,9 @@
             slidesPerGroup: 3,
             loop: true,
             loopFillGroupWithBlank: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
             navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
+                nextEl: ".budrevich-swiper-arrow-next",
+                prevEl: ".budrevich-swiper-arrow-prev",
             },
         });
     </script>

@@ -9,9 +9,9 @@ html {
     box-sizing: inherit;
     font-family: 'Proxima Nova Regular', sans-serif;
     font-weight: 300;
-    background: #000 !important;
-        color: #0f0 !important;
-        outline: solid #f00 1px !important;
+    /* background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important; */
 }
 
 .mgn-lr-64px {
@@ -583,10 +583,6 @@ h2.title-left-h2 {
 }
 
 /* OUR FAVOURITES */
-.our-favourites-section {
-    --swiper-theme-color: black;
-}
-
 .swiper {
     width: 100%;
     height: 100%;
@@ -636,6 +632,27 @@ h2.title-left-h2 {
 
 .favourite-swiper-box {
     flex: 1;
+}
+
+.budrevich-swiper-arrow-wrapper {
+    background: yellow;  
+    position: absolute;
+    top: 50%; 
+    width: 100%;
+    z-index: 1;
+
+}
+.budrevich-swiper-arrow-next svg, .budrevich-swiper-arrow-prev svg {
+    position: absolute;
+    cursor: pointer;
+}
+
+.budrevich-swiper-arrow-next svg {
+    right: 24px;
+}
+
+.budrevich-swiper-arrow-prev svg {
+    left: 24px;
 }
 
 /* Google Reviews Section */
