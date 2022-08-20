@@ -79,7 +79,7 @@ html {
 }
 
 .max-width-container {
-    max-width: 1440px;
+    max-width: 1458px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -230,6 +230,7 @@ h2.title-left-h2 {
     font-family: 'Lenora Medium Trial', sans-serif;
     margin-top: 0;
     margin-bottom: 35px;
+    letter-spacing: 0.5px;
 }
 
 .divider-no-height {
@@ -267,6 +268,12 @@ h2.title-left-h2 {
 }
 
 /* HEADER SECTION */
+.hero-header-wrapper {
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 6fr 6fr;
+}
+
 .hero-header-section-container {
     height: 100%;
     min-height: 768px;
@@ -288,12 +295,13 @@ h2.title-left-h2 {
 .hero-header-title-box h2 {
     font-size: 22px;
     line-height: 32px;
-    font-family: 'Proxima Nova Light', sans-serif;
+    font-family: 'Proxima Nova Regular', sans-serif;
     color: white;
-    max-width: 420px;
     padding-bottom: 64px;
     padding-top: 16px;
     margin: 0;
+    display: grid;
+    grid-template-columns: 6.5fr 3.5fr;
 }
 
 /* SHOP BY CATEGORY */
@@ -302,20 +310,44 @@ h2.title-left-h2 {
 }
 
 .category-section-container h3 {
-    font-family: 'Proxima Nova Light', sans-serif;
+    font-family: 'Proxima Nova Regular', sans-serif;
     font-size: 22px;
     line-height: 32px;
     margin-top: 50px;
     margin-bottom: 0;
 }
 
+.category-info-img-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+}
+
+.category-info-img-box {
+    text-align: center;
+}
+
+
 /* RING SHOWCASE */
+.ring-showcase-wrapper {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    column-gap: 32px;
+}
+
 .ring-showcase-container .budrevich-btn {
     margin-top: 96px;
 }
 
 .ring-showcase-container p {
     margin: 0;
+    display: grid;
+    grid-template-columns: 11.5fr 0.5fr;
+}
+
+.ring-showcase-box:first-child {
+    min-width: 0;
+    position: relative;
 }
 
 /* WHY CHOOSE US */
