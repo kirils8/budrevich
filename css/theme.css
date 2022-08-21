@@ -338,6 +338,18 @@ h2.title-left-h2 {
     column-gap: 32px;
 }
 
+.single-quote-box-img {
+    position: relative;
+}
+
+.single-quote-box-img img {
+    width: 100%;
+    max-width: 60px;
+    position: absolute;
+    right: -10px;
+    top: 8px;
+}
+
 .quote-box-desc p {
     margin-bottom: 48px;
     margin-top: 0;
