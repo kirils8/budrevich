@@ -182,6 +182,9 @@ img {
     display: flex;
 }
 
+.d-flex-direction-col {
+    flex-direction: column;
+}
 
 .bg-gray {
     background: #F2F2F2;
