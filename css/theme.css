@@ -129,6 +129,11 @@ img {
     line-height: 32px;;
 }
 
+.nova-font-24px {
+    font-size: 24px;
+    line-height: 32px;;
+}
+
 .lenora-font-30px-medium {
     font-size: 30px;
     line-height: 1;
@@ -173,54 +178,10 @@ img {
     font-family: 'Proxima Nova Semibold', sans-serif;
 }
 
-.flex-box-grid {
-    display: flex;
-    flex-direction: column;
-}
-
-.wd-33 { width: 33.33333%; }
-
-.wd-25 { width: 25%; }
-
-.wd-50 { width: 50%; }
-
-.wd-40 { width: 40%; }
-
-.wd-45 { width: 45%; }
-
-.wd-48 { width: 48%; }
-
-.wd-60 { width: 60%; }
-
-.wd-100 { width: 100%;}
-
 .d-flex {
     display: flex;
 }
 
-.d-flex-h-cntr {
-    justify-content: center;
-}
-
-.d-flex-j-s-between {
-    justify-content: space-between;
-}
-
-.d-flex-v-cntr {
-    align-items: center;
-}
-
-.d-flex-j-right {
-    justify-content: right;
-}
-
-.d-flex-a-f-start {
-    align-items: flex-start;
-}
-
-.d-flex-v-end {
-    align-items: flex-end;
-}
 
 .bg-gray {
     background: #F2F2F2;
@@ -254,14 +215,6 @@ h2.title-left-h2 {
 
 .pdg-l-100px {
     padding-left: 100px;
-}
-
-.h-100-perc {
-    height: 100%;
-}
-
-.d-flex-direction-col {
-    flex-direction: column;
 }
 
 .subtitle-center-p p {
@@ -789,6 +742,12 @@ h2.title-left-h2 {
     max-width: 155px;
 }
 
+.learn-more-articles-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;   
+}
+
 /* FAQ */
 .faq-section .title-center-h2 h2 {
     margin-bottom: 32px;
@@ -796,6 +755,7 @@ h2.title-left-h2 {
 
 #budrevich-accordion-faq {
     row-gap: 32px;
+    padding: 0;
 }
 
 #budrevich-accordion-faq li {
@@ -865,6 +825,13 @@ h2.title-left-h2 {
 }
 
 /* Instagram Feed */
+.insta-feed-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 32px;
+    row-gap: 32px;
+}
+
 .insta-feed-section h5 {
     font-weight: bold;
     padding-bottom: 64px;
