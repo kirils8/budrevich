@@ -7,7 +7,7 @@ html {
 ::after,
 ::before {
     box-sizing: inherit;
-    font-family: 'Proxima Nova Regular', sans-serif;
+    font-family: 'Proxima Nova Regular';
     font-weight: 300;
     /* background: #000 !important;
     color: #0f0 !important;
@@ -137,13 +137,13 @@ img {
 .lenora-font-30px-medium {
     font-size: 30px;
     line-height: 1;
-    font-family: 'Lenora Medium Trial', sans-serif;
+    font-family: 'Lenora Medium Trial';
 }
 
 .lenora-font-40px-medium {
     font-size: 40px;
     line-height: 48px;
-    font-family: 'Lenora Medium Trial', sans-serif;
+    font-family: 'Lenora Medium Trial';
 }
 
 .pos-relative {
@@ -166,7 +166,7 @@ img {
     line-height: 1;
     line-height: 48px;
     margin-bottom: 55px;
-    font-family: 'Lenora Medium Trial', sans-serif;
+    font-family: 'Lenora Medium Trial';
     margin-top: 0;
     font-weight: 400;
 }
@@ -175,7 +175,7 @@ img {
     font-size: 22px;
     padding-bottom: 80px;
     margin: 0;
-    font-family: 'Proxima Nova Semi Bold', sans-serif;
+    font-family: 'Proxima Nova Semi Bold';
 }
 
 .d-flex {
@@ -193,7 +193,7 @@ img {
 h2.title-left-h2 {
     font-size: 80px;
     line-height: 1;
-    font-family: 'Lenora Medium Trial', sans-serif;
+    font-family: 'Lenora Medium Trial';
     margin-top: 0;
     margin-bottom: 35px;
     letter-spacing: 0.5px;
@@ -211,7 +211,7 @@ h2.title-left-h2 {
 .large-h2 {
     font-size: 104px;
     line-height: 1;
-    font-family: 'Lenora Medium Trial', sans-serif;
+    font-family: 'Lenora Medium Trial';
     margin-top: 0;
     margin-bottom: 96px;
 }
@@ -252,7 +252,7 @@ h2.title-left-h2 {
 }
 
 .hero-header-h1 {
-    font-family: 'Lenora Medium Trial', sans-serif;
+    font-family: 'Lenora Medium Trial';
     color: white;
     font-size: 80px;
     line-height: 1;
@@ -261,7 +261,7 @@ h2.title-left-h2 {
 .hero-header-title-box h2 {
     font-size: 22px;
     line-height: 32px;
-    font-family: 'Proxima Nova Regular', sans-serif;
+    font-family: 'Proxima Nova Regular';
     color: white;
     padding-bottom: 64px;
     padding-top: 16px;
@@ -276,7 +276,7 @@ h2.title-left-h2 {
 }
 
 .category-section-container h3 {
-    font-family: 'Proxima Nova Regular', sans-serif;
+    font-family: 'Proxima Nova Regular';
     font-size: 22px;
     line-height: 32px;
     margin-top: 50px;
@@ -789,7 +789,7 @@ h2.title-left-h2 {
 }
 
 .budrevich-faq-ahead {
-    font-family: "Proxima Nova Semibold";
+    font-family: "Proxima Nova Semi Bold";
     display: flex;
     align-items: center;
     justify-content: space-between;
