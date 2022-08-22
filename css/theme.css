@@ -225,6 +225,10 @@ h2.title-left-h2 {
     margin-bottom: 48px;
 }
 
+.horizontal-divider-ios {
+    display: none;
+}
+
 /* HEADER SECTION */
 .hero-header-wrapper {
     display: grid;
@@ -865,5 +869,58 @@ h2.title-left-h2 {
 }
 
 @media (max-width:810px) and (min-width:320px) {
+     /* GENERAL */
+    .mgn-lr-64px {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .mgn-b-64px {
+        margin-bottom: 32px;
+    }
+
+    .mgn-t-64px {
+        margin-top: 32px;
+    }
+
+    .horizontal-divider-cont.mgn-b-64px.ios-mgn-b-48px {
+        margin-bottom: 48px;
+    }
+
+    .budrevich-btn {
+        font-size: 12px;
+        max-width: 195px;
+    }
+    
+    .horizontal-divider-ios {
+        display: block;
+    }
+
+    /* HEADER SECTION */
+    .hero-header-wrapper {
+        display: none;
+    }
+
+    .hero-header-section-container {
+        min-height: 600px;
+    }
+
+    .hero-header-section-bg {
+        background: url("../img/ios/bg_header_mobile.jpg") center/cover no-repeat;
+    }
+
+    .hero-header-ios h1 {
+        font-size: 28px;
+        line-height: 32px;
+        color: black;
+        margin-bottom: 16px;
+    }
+
+    .hero-header-ios h2 {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 32px;
+        margin-top: 0;
+    }
 
 }
