@@ -229,6 +229,10 @@ h2.title-left-h2 {
     display: none;
 }
 
+.desk-mobile-none {
+    display: none;
+}
+
 /* HEADER SECTION */
 .hero-header-wrapper {
     display: grid;
@@ -893,6 +897,10 @@ h2.title-left-h2 {
     }
     
     .horizontal-divider-ios {
+        display: block;
+    }
+
+    .desk-mobile-none {
         display: block;
     }
 
