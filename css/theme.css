@@ -284,6 +284,19 @@ body .d-ios-show {
     grid-template-columns: 6.5fr 3.5fr;
 }
 
+.header-pointing-arrow {
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    bottom: 64px;
+    cursor: pointer;
+}
+
+.header-pointing-arrow svg {
+    width: 12px;
+    transform: rotate(-90deg);
+}
+
 /* SHOP BY CATEGORY */
 .category-section-container .d-flex {
     column-gap: 28px;
