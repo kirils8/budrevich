@@ -877,6 +877,10 @@ body .d-ios-show {
 }
 
 /* Instagram Feed */
+.insta-feed-section {
+    background: #f2f2f2;
+}
+
 .insta-feed-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1422,5 +1426,11 @@ body .d-ios-show {
     .learn-more-section h3.nova-font-24px {
         font-size: 16px;
         line-height: 20px;
+    }
+
+    /* Insta Feed */
+    .insta-feed-grid {
+        row-gap: unset;
+        column-gap: unset;
     }
 }
