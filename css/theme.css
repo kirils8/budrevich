@@ -983,7 +983,7 @@ ul.footer-menu li a {
 }
 
 .footer-form-input {
-    padding: 1.1em;
+    padding: 1.3em;
     background: white;
     border-radius: 5px;
     border: none;
@@ -992,7 +992,7 @@ ul.footer-menu li a {
 .footer-form-cont button {
     text-align: left;
     padding: 1.1em;
-    padding-left: 1em;
+    padding-left: 1.6em;
     border-radius: 5px;
     color: white;
     background: #404759;
