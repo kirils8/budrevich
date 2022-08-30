@@ -247,6 +247,34 @@ body .d-ios-show {
     margin-bottom: 20px;
 }
 
+/* TOP BAR */
+.top-info-bar-cont {
+    background: #404759;
+    color: white;
+}
+
+.top-info-bar-cont p a {
+    color: white;
+    text-decoration: none;
+}
+
+.top-info-bar-wrapper {
+    display: grid;
+    column-gap: 32px;
+    grid-template-columns: 2fr 3fr 2fr 4fr 1fr;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.top-info-bar-wrapper .top-info-bar-box:last-child {
+    position: absolute;
+    right: 0;
+}
+
+.top-info-bar-wrapper .top-info-bar-box:last-child p {
+    text-align: right;
+}
+
 /* HEADER SECTION */
 .hero-header-wrapper {
     display: grid;
