@@ -929,8 +929,94 @@ body .d-ios-show {
 
 .insta-feed-section .insta-feed-img-wrapper {
     column-gap: 28px;
-
 }
+
+/* Footer */
+.footer-cont {
+    background-color: #2e364b;
+    color: #F2F2F2;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.footer-wrapper {
+    grid-template-columns: 3fr 2fr 3fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    column-gap: 32px;
+}
+
+.footer-wrapper h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Proxima Nova Semi Bold';
+    margin-top: 0;
+}
+
+.footer-wrapper p {
+    margin-bottom: 0;
+}
+
+.footer-wrapper h5 {
+    margin-bottom: 10px;
+}
+
+ul.footer-menu {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+ul.footer-menu li {
+    list-style-type: none;
+}
+
+ul.footer-menu li a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+.footer-form-cont {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.footer-form-input {
+    padding: 1.1em;
+    background: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer-form-cont button {
+    text-align: left;
+    padding: 1.1em;
+    padding-left: 1em;
+    border-radius: 5px;
+    color: white;
+    background: #404759;
+    border: 1px solid white;
+    padding-left: 1.3em;
+}
+
+.footer-form-input input {
+    width: 100%;
+    border: none;
+}
+
+.footer-back-arrow {
+    text-align: right;
+}
+
+.footer-back-arrow svg {
+    transform: rotate(90deg);
+    width: 12px;
+    position: relative;
+    right: 15px;
+    bottom: 9px;
+}
+
 /* 1280 */
 @media (max-width:1440px) and (min-width:1280px) {
 
