@@ -369,7 +369,7 @@ body .d-ios-show {
 /* SINGLE QUOTE */
 .single-quote-grid {
     display: grid;
-    grid-template-columns: 1fr 5fr 1fr 4fr 1fr;
+    grid-template-columns: 1fr 5fr 1fr 5fr 1fr;
     column-gap: 32px;
 }
 
@@ -561,6 +561,8 @@ body .d-ios-show {
     display: flex;
     align-items: flex-end;
     height: 100%;
+    position: relative;
+    bottom: 7px;
 }
 
 .about-grid-five-p {
@@ -1238,7 +1240,6 @@ body .d-ios-show {
 
     .about-grid-second, .about-grid-four, .about-grid-five   {
         grid-template-columns: auto;
-        row-gap: 20px;
         column-gap: unset;
     }
 
@@ -1290,7 +1291,9 @@ body .d-ios-show {
         display: none;
     }
 
-    .about-grid-five-box .large-h2 {
+    .about-grid-five-box .large-h2, 
+    .about-grid-second-box .large-h2,
+    .about-grid-third-box .large-h2 {
         padding-bottom: 20px;
     }
 
@@ -1406,6 +1409,10 @@ body .d-ios-show {
     }
 
     /* FAQ */
+    #budrevich-accordion-faq {
+        row-gap: 16px;
+    }
+
     #budrevich-accordion-faq li {
         padding: 20px 16px;
     }
