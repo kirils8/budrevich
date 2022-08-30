@@ -1378,6 +1378,7 @@ body .d-ios-show {
 
     .google-reviews-cta {
         margin-top: 14px;
+        position: static;
     }
 
     /* Learn More Section */
