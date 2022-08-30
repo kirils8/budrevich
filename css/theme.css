@@ -1042,7 +1042,7 @@ body .d-ios-show {
         display: block;
     }
 
-    .ios-hide {
+    body .ios-hide {
         display: none;
     }
 
@@ -1204,6 +1204,14 @@ body .d-ios-show {
 
     .single-quote-box .d-flex {
         order: 1;
+    }
+
+    .single-quote-img > img {
+        max-width: 100%;
+    }
+
+    .single-quote-img > img {
+        order: 2;   
     }
 
     .single-quote-ring-pos {
