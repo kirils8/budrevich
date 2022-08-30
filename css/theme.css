@@ -275,6 +275,16 @@ body .d-ios-show {
     text-align: right;
 }
 
+/* NAVIGATION */
+.nav-bar-cont {
+    padding: 12px 0;
+}
+
+.nav-bar-cont ul {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+}
+
 /* HEADER SECTION */
 .hero-header-wrapper {
     display: grid;
