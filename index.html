@@ -52,47 +52,57 @@
 </head>
 
 <body>
-    
-    <!-- TOP BAR -->
-    <div class="top-info-bar-cont">
-        <div class="max-width-container">
-            <div class="max-width-wrapper mgn-lr-64px">
-                <div class="top-info-bar-wrapper pos-relative">
-                    <div class="top-info-bar-box ios-hide">
-                        <p>Book An Appointment</p>
-                    </div>
-                    <div class="top-info-bar-box ios-hide"></div>
-                    <div class="top-info-bar-box txt-cntr">
-                        <p>5 Year After Sales Service</p>
-                    </div>
-                    <div class="top-info-bar-box ios-hide"></div>
-                    <div class="top-info-bar-box ios-hide">
-                        <p><a href="tel:+4402074301138">+44 020 7430 1138</a></p>
+
+
+    <!-- NAVIGATION LINKS -->
+    <div class="full-navigation-cont">
+        <div class="top-info-bar-cont">
+            <div class="max-width-container">
+                <div class="max-width-wrapper mgn-lr-64px">
+                    <div class="top-info-bar-wrapper pos-relative">
+                        <div class="top-info-bar-box ios-hide">
+                            <p>Book An Appointment</p>
+                        </div>
+                        <div class="top-info-bar-box ios-hide"></div>
+                        <div class="top-info-bar-box txt-cntr">
+                            <p>5 Year After Sales Service</p>
+                        </div>
+                        <div class="top-info-bar-box ios-hide"></div>
+                        <div class="top-info-bar-box ios-hide">
+                            <p><a href="tel:+4402074301138">+44 020 7430 1138</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="navigation-bar-cont">
 
-    <!-- NAVIGATION -->
-    <nav class="nav-bar-cont">
-        <div class="max-width-container">
-            <div class="max-width-wrapper mgn-lr-64px">
-                <ul>
-                    <li><a href="#">engagement rings</a></li>
-                    <li><a href="#">wedding rings</a></li>
-                    <li><a href="#">fine jewellery</a></li>
-                    <li><a href="#">guides & articles</a></li>
-                    <li><a href="#">design process</a></li>
-                    <li><a href="#">reviews</a></li>
-                    <li><a href="#">contact us</a></li>
-                </ul>
+            <!-- LOGO WRAPPER -->
+            <div id="logo-bar-hover-cont">
+                <div class="logo-info-bar"></div>
+                <div class="logo-wrapper">
+                    
+                </div>
             </div>
-        </div>
-    </nav>
 
-    <!-- Divider/Separator -->
-    <div class="horizontal-divider-cont"></div>
+            <!-- NAVIGATION LINKS -->
+            <nav class="nav-links-bar-cont ios-hide">
+                <div class="max-width-container">
+                    <div class="max-width-wrapper mgn-lr-64px">
+                        <ul>
+                            <li><a href="#">engagement rings</a></li>
+                            <li><a href="#">wedding rings</a></li>
+                            <li><a href="#">fine jewellery</a></li>
+                            <li><a href="#">guides & articles</a></li>
+                            <li><a href="#">design process</a></li>
+                            <li><a href="#">reviews</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
 
     <main>
         <!-- Header section-->
@@ -1250,5 +1260,24 @@
                 scrolling = false;
             }
         })();
+    </script>
+
+    <!-- Navigation show hidden div -->
+    <script>
+        const el = document.querySelector('.navigation-bar-cont');
+
+        const hiddenDiv = document.getElementById('logo-bar-hover-cont');
+
+        el.addEventListener('mouseover', function handleMouseOver() {
+            hiddenDiv.style.display = 'block';
+
+            // hiddenDiv.style.visibility = 'visible';
+        });
+
+        el.addEventListener('mouseout', function handleMouseOut() {
+            hiddenDiv.style.display = 'none';
+
+            // hiddenDiv.style.visibility = 'hidden';
+        });
     </script>
 </body>
