@@ -25,6 +25,13 @@ html {
 .mgn-b-96px {
     margin-bottom: 96px;
 }
+.mgn-b-128px {
+    margin-bottom: 128px;
+}
+
+.mgn-t-128px {
+    margin-top: 128px;
+}
 
 .mgn-t-96px {
     margin-top: 96px;
@@ -901,6 +908,17 @@ body .d-ios-show {
 }
 
 /* FAQ */
+.faq-section-bg {
+    background: url('../img/ring-bg-faq.jpg') right/contain no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    width: 613px;
+    height: 861px;
+    z-index: -1;
+    top: -100px;
+}
+
 .faq-section .title-center-h2 h2 {
     margin-bottom: 32px;
 }
@@ -908,6 +926,7 @@ body .d-ios-show {
 #budrevich-accordion-faq {
     row-gap: 32px;
     padding: 0;
+    margin: 0;
 }
 
 #budrevich-accordion-faq li {
@@ -915,13 +934,18 @@ body .d-ios-show {
     border: 1px solid #000;
     padding: 32px;
     border-radius: 5px;
+    background: white;
 }
 
 .budrevich-faq-ahead {
-    font-family: "Proxima Nova Semi Bold";
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.budrevich-faq-ahead p {
+    margin: 0;
+    font-family: "Proxima Nova Semi Bold";
 }
 
 .budrevich-faq-ahead.open + .budrevich-faq-abody {
@@ -944,13 +968,14 @@ body .d-ios-show {
 
 .budrevich-faq-abody p {
     margin: 0;
-    padding-top: 32px;
+    padding-top: 16px;
     max-width: 920px;
 }
 
 .budrevich-faq-ahead .faq-minus-icon,
 .budrevich-faq-ahead .faq-plus-icon {
     cursor: pointer;
+    display: flex;
 }
 
 .budrevich-faq-ahead .faq-minus-icon,
@@ -959,21 +984,12 @@ body .d-ios-show {
 }
 
 .budrevich-faq-ahead span {
-    width: 20px;
-    height: 20px;
+    width: 16px;
     display: block;
 }
 
 .budrevich-faq-ahead.open .faq-minus-icon {
-    display: block;
-}
-
-.budrevich-faq-ahead .faq-minus-icon {
-    background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjMiIHZpZXdCb3g9IjAgMCAxOCAzIiB3aWR0aD0iMTgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0ibTAgLjk5ODUzNWgxNy41djEuNTAwMDA1aC0xNy41eiIgZmlsbD0iIzAwMCIvPjwvc3ZnPg==") center/contain no-repeat;
-}
-
-.budrevich-faq-ahead .faq-plus-icon {
-    background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjE5IiB2aWV3Qm94PSIwIDAgMTggMTkiIHdpZHRoPSIxOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMTcuNDk5IDguOTg2NTNoLTcuOTg5di03Ljk4Nzk5NWgtMS41MjJ2Ny45ODg5OTVoLTcuOTg4djEuNTIxOTdoNy45ODl2Ny45ODloMS41MjJ2LTcuOTloNy45ODl2LTEuNTIxOTd6IiBmaWxsPSIjMDAwIi8+PC9zdmc+") center/contain no-repeat;
+    display: flex;
 }
 
 /* Instagram Feed */
@@ -1638,6 +1654,7 @@ ul.footer-menu li a {
 
     #budrevich-accordion-faq li {
         padding: 20px 16px;
+        background: white;
     }
 
     .budrevich-faq-ahead span {
@@ -1651,6 +1668,9 @@ ul.footer-menu li a {
 
     .faq-section .subtitle-center-p p {
         margin-bottom: 32px;
+    }
+    .faq-section {
+        background: #F2F2F2;
     }
 
     /* What's New Section */
