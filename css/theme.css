@@ -264,12 +264,19 @@ body .d-ios-show {
     grid-template-columns: 2fr 3fr 2fr 4fr 1fr;
     font-size: 12px;
     line-height: 12px;
+    padding: 8px 0;
+    align-items: center;
 }
 
 .top-info-bar-wrapper p {
     font-family: "Proxima Nova Semibold", sans-serif;
     font-weight: 600;
+    margin: 0;
 }
+
+ .top-info-bar-wrapper p {
+     margin: 0;
+ }
 
 .top-info-bar-wrapper .top-info-bar-box:last-child {
     position: absolute;
@@ -1253,6 +1260,13 @@ ul.footer-menu li a {
         line-height: 18px;
         padding-bottom: 32px;
     }
+
+    /* TOP BAR */
+    .top-info-bar-wrapper {
+        display: block;
+    }
+
+    /* NAVIGATION */
 
     /* HEADER SECTION */
     .hero-header-wrapper {
