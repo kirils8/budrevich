@@ -326,8 +326,8 @@ body .d-ios-show {
 }
 
 .full-navigation-cont:before {
-    background: red;
-    height: 150px;
+    background: none;
+    height: 200px;
     content: "";
     display: block;
     position: absolute;
