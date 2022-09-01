@@ -296,15 +296,28 @@ body .d-ios-show {
     text-align: right;
 }
 
-/* LOGO BAR ON HOVER */
-#logo-bar-hover-cont {
-    background: #f2f2f2;
-    height: 80px;
-    width: 100%;
-    display: none;
+/* Logo wrapper */
+.logo-info-bar {
+    justify-content: space-between;
+    padding-top: 14px;
 }
 
-/* NAVIGATION */
+.logo-info-left-side, .logo-info-right-side {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* Logo bar on hover */
+#logo-bar-hover-cont {
+    background: white;
+    padding-bottom: 32px;
+    width: 100%;
+    display: none;
+    align-items: center;
+    text-align: center;
+}
+
+/* Navigation */
 .full-navigation-cont {
     position: fixed;
     top: 0;
