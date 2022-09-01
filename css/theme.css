@@ -258,6 +258,7 @@ body .d-ios-show {
 .top-info-bar-cont {
     background: #404759;
     color: white;
+    position: relative;
 }
 
 .top-info-bar-cont p a {
@@ -321,6 +322,21 @@ body .d-ios-show {
     top: 0;
     z-index: 3;
     width: 100%;
+    background: white;
+}
+
+.full-navigation-cont:before {
+    background: red;
+    height: 150px;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+}
+
+.navigation-bar-cont {
+    position: relative;
     background: white;
 }
 
