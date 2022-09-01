@@ -263,8 +263,7 @@ body .d-ios-show {
 .top-info-bar-cont p a {
     color: white;
     text-decoration: none;
-    font-family: "Proxima Nova Semibold", sans-serif;
-    font-weight: 600;
+    font-family: "Proxima Nova Regular", sans-serif;
 }
 
 .top-info-bar-wrapper {
@@ -278,8 +277,7 @@ body .d-ios-show {
 }
 
 .top-info-bar-wrapper p {
-    font-family: "Proxima Nova Semibold", sans-serif;
-    font-weight: 600;
+    font-family: "Proxima Nova Regular", sans-serif;
     margin: 0;
 }
 
@@ -588,6 +586,10 @@ body .d-ios-show {
     grid-template-columns: 8fr 4fr;
     column-gap: 32px;
     position: relative;
+}
+
+.guide-grid-first p {
+    width: 97%;
 }
 
 .guide-flex-box {
@@ -1012,6 +1014,7 @@ body .d-ios-show {
 .budrevich-faq-ahead .faq-plus-icon {
     cursor: pointer;
     display: flex;
+    align-items: center;
 }
 
 .budrevich-faq-ahead .faq-minus-icon,
@@ -1542,7 +1545,7 @@ ul.footer-menu li a {
         width: 100%;
     }
 
-    .about-grid-four-box {
+    .about-grid-four-box:first-child {
         padding-bottom: 32px;
     }
 
