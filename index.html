@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Sep 1 01:49</title>
+    <title>Sep 1 03:52</title>
     <meta name="description" content="Budrevich Shopify Development">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
@@ -131,8 +131,13 @@
                 <div class="max-width-container">
                     <div class="max-width-wrapper mgn-lr-64px">
                         <ul>
-                            <li><a href="#">engagement rings</a></li>
-                            <li><a href="#">wedding rings</a></li>
+                            <li id="megaMenu-link-1">
+                                <a href="#">engagement rings</a>
+                                <div class="nav-links-mega-menu"></div>
+                            </li>
+                            <li>
+                                <a href="#">wedding rings</a>
+                            </li>
                             <li><a href="#">fine jewellery</a></li>
                             <li><a href="#">guides & articles</a></li>
                             <li><a href="#">design process</a></li>
@@ -1296,19 +1301,25 @@
     <!-- Navigation show hidden div -->
     <script>
         const el = document.querySelector('.navigation-bar-cont');
-
         const hiddenDiv = document.getElementById('logo-bar-hover-cont');
 
         el.addEventListener('mouseover', function handleMouseOver() {
             hiddenDiv.style.display = 'flex';
-
-            // hiddenDiv.style.visibility = 'visible';
         });
 
         el.addEventListener('mouseout', function handleMouseOut() {
             hiddenDiv.style.display = 'none';
+        });
 
-            // hiddenDiv.style.visibility = 'hidden';
+        var link = document.getElementById('megaMenu-link-1');
+        var hiddenMegaMenu = document.querySelector('.nav-links-mega-menu');
+
+        link.addEventListener('mouseover', function handleMouseOver() {
+            hiddenMegaMenu.style.display = 'block';
+        });
+
+        link.addEventListener('mouseout', function handleMouseOut() {
+            hiddenMegaMenu.style.display = 'none';
         });
     </script>
 </body>
