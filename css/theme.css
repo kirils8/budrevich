@@ -352,6 +352,10 @@ body .d-ios-show {
     letter-spacing: 0.5px;
 }
 
+.nav-links-mega-menu {
+    display: none;
+}
+
 /* HEADER SECTION */
 .hero-header-wrapper {
     display: grid;
