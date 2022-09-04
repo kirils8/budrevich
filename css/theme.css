@@ -369,7 +369,7 @@ body .d-ios-show {
 /* SUBMENU */
 .nav-links-mega-menu {
     display: none;
-    /* height: 536px; */
+    max-height: 500px;
     background: white;
     left: 0;
     overflow-y: auto;
