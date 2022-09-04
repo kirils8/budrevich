@@ -127,11 +127,11 @@
             </div>
 
             <!-- Navigation Links -->
-            <nav class="nav-links-bar-cont ios-hide">
+            <nav class="nav-links-bar-cont submenu-hover-overlay ios-hide">
                 <div class="max-width-container">
                     <div class="max-width-wrapper mgn-lr-64px">
                         <ul>
-                            <li id="megaMenu-link-1">
+                            <li class="main-nav-lvl megaMenu-link-1">
                                 <a href="#">engagement rings</a>
                                 <div class="nav-links-mega-menu">
                                     <div class="nav-links-mega-menu-grid-wrapper">
@@ -167,14 +167,14 @@
                                     </div>
                                 </div>
                             </li>
-                            <li>
+                            <li class="main-nav-lvl">
                                 <a href="#">wedding rings</a>
                             </li>
-                            <li><a href="#">fine jewellery</a></li>
-                            <li><a href="#">guides & articles</a></li>
-                            <li><a href="#">design process</a></li>
-                            <li><a href="#">reviews</a></li>
-                            <li><a href="#">contact us</a></li>
+                            <li class="main-nav-lvl"><a href="#">fine jewellery</a></li>
+                            <li class="main-nav-lvl"><a href="#">guides & articles</a></li>
+                            <li class="main-nav-lvl"><a href="#">design process</a></li>
+                            <li class="main-nav-lvl"><a href="#">reviews</a></li>
+                            <li class="main-nav-lvl"><a href="#">contact us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -1343,15 +1343,18 @@
             hiddenDiv.style.display = 'none';
         });
 
-        var link = document.getElementById('megaMenu-link-1');
-        var hiddenMegaMenu = document.querySelector('.nav-links-mega-menu');
+        const link = document.querySelector('.megaMenu-link-1');
+        const hiddenMegaMenu = document.querySelector('.nav-links-mega-menu');
+        const mainLvlNav = document.querySelector('.nav-links-bar-cont');
 
         link.addEventListener('mouseover', function handleMouseOver() {
             hiddenMegaMenu.style.display = 'block';
+            mainLvlNav.style.borderBottom = 'none';
         });
 
         link.addEventListener('mouseout', function handleMouseOut() {
             hiddenMegaMenu.style.display = 'none';
+            mainLvlNav.style.borderBottom = '1px solid black';
         });
     </script>
 </body>

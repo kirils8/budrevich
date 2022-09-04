@@ -341,7 +341,6 @@ body .d-ios-show {
 }
 
 .nav-links-bar-cont {
-    padding: 13px 0;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
@@ -369,7 +368,6 @@ body .d-ios-show {
 /* SUBMENU */
 .nav-links-mega-menu {
     display: none;
-    max-height: 500px;
     background: white;
     left: 0;
     overflow-y: auto;
@@ -380,7 +378,10 @@ body .d-ios-show {
     top: 100%;
     z-index: -1;
     width: 100%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
+
 .nav-links-mega-menu-grid {
     display: grid;
     grid-template-columns: 4fr 2fr 3fr 3fr;
@@ -394,6 +395,10 @@ body .d-ios-show {
     row-gap: 16px;
     text-transform: uppercase;
     font-size: 12px;
+}
+
+.nav-links-bar-cont ul .main-nav-lvl {
+    padding: 13px 0;
 }
 
 .nav-links-mega-menu-grid-box h5 {
