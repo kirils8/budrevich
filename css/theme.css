@@ -430,6 +430,33 @@ h5.nav-links-heading-featured {
     line-height: 22px;
 }
 
+/* Navigation Mobile */
+.nav-mobile-wrapper {
+    display: grid;
+    grid-template-columns: 3fr 6fr 3fr;
+    height: 44px;
+    align-items: center;
+}
+
+.nav-mobile-wrapper .nav-mobile-right-side {
+    text-align: right;
+}
+
+.nav-mobile-left-side, .nav-mobile-right-side {
+    column-gap: 10px;
+    display: flex;
+}
+
+.nav-mobile-mid-side span {
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+
+.nav-mobile-right-side {
+    column-gap: 10px;
+    justify-content: flex-end;
+}
 
 /* HEADER SECTION */
 .hero-header-wrapper {
@@ -1400,6 +1427,18 @@ ul.footer-menu li a {
     }
 
     /* NAVIGATION */
+    .full-navigation-cont:before {
+        height: unset;
+    }
+
+    .nav-mobile-cont .mgn-lr-64px {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    .full-nav-pos-static {
+        height: 72px;
+    }
 
     /* HEADER SECTION */
     .hero-header-wrapper {
