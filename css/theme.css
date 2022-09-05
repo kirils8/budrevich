@@ -1653,6 +1653,7 @@ ul.footer-menu li a {
 
     .about-grid-five-box-img {
         padding-bottom: 32px;
+        position: static;
     }
 
     /* Invintation Section With BG */
