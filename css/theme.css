@@ -317,6 +317,10 @@ body .d-ios-show {
 }
 
 /* Navigation */
+.full-nav-pos-static {
+    height: 74px;
+}
+
 .full-navigation-cont {
     position: fixed;
     top: 0;
