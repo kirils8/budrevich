@@ -458,6 +458,10 @@ h5.nav-links-heading-featured {
     justify-content: flex-end;
 }
 
+.nav-mobile-cont {
+    border-bottom: 1px solid black;
+}
+
 /* HEADER SECTION */
 .hero-header-wrapper {
     display: grid;
