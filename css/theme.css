@@ -403,7 +403,7 @@ body .d-ios-show {
 
 .nav-links-mega-menu-grid-box h5 {
     font-size: 12px;
-    font-family: "Proxima Nova Semibold";
+    font-family: "Proxima Nova Semi Bold";
     text-transform: uppercase;
     letter-spacing: 0.25px;
     margin-top: 0;
@@ -1073,7 +1073,7 @@ h5.nav-links-heading-featured {
     max-height: 0;
     height: auto;
     color: #111;
-    background: white;
+    background: none;
 }
 
 .budrevich-faq-abody p {
