@@ -485,6 +485,7 @@ h5.nav-links-heading-featured {
     color: white;
     font-size: 80px;
     line-height: 1;
+    margin-left: -5px;
 }
 
 .hero-header-title-box h2 {
