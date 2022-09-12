@@ -1381,7 +1381,7 @@
         })();
     </script>
 
-    <!-- Navigation show hidden div -->
+    <!-- Navigation Show Full Menu//Mega Menu -->
     <script>
         const el = document.querySelector('.full-navigation-cont');
         const hiddenDiv = document.getElementById('logo-bar-hover-cont');
@@ -1408,4 +1408,18 @@
             mainLvlNav.style.borderBottom = '1px solid black';
         });
     </script>
+
+    <!-- Show Hide Navbar on scroll-->
+    <script>
+        let navBar = document.querySelector('.full-navigation-cont')
+        let prevScrollPos = window.pageYOffset
+        window.addEventListener('scroll', () => {
+            let currentScrollPos = window.pageYOffset
+            if (currentScrollPos > 100) {
+                prevScrollPos > currentScrollPos ? navBar.style.top = '0' : navBar.style.top = '-120px'
+                prevScrollPos = currentScrollPos
+            }
+        })
+    </script>
 </body>
+</html>

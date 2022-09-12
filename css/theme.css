@@ -322,11 +322,12 @@ body .d-ios-show {
 }
 
 .full-navigation-cont {
-    position: fixed;
-    top: 0;
-    z-index: 3;
     width: 100%;
     background: white;
+    position: fixed;
+    top: 0;
+    transition: .45s;
+    z-index: 999;
 }
 
 .full-navigation-cont:before {
