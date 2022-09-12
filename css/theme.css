@@ -326,7 +326,7 @@ body .d-ios-show {
     background: white;
     position: fixed;
     top: 0;
-    transition: .45s;
+    transition: .4s;
     z-index: 999;
 }
 

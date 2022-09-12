@@ -1407,17 +1407,18 @@
             hiddenMegaMenu.style.display = 'none';
             mainLvlNav.style.borderBottom = '1px solid black';
         });
-    </script>
 
-    <!-- Show Hide Navbar on scroll-->
-    <script>
+        // Show Hide Navbar on scroll
         let navBar = document.querySelector('.full-navigation-cont')
         let prevScrollPos = window.pageYOffset
         window.addEventListener('scroll', () => {
             let currentScrollPos = window.pageYOffset
             if (currentScrollPos > 100) {
-                prevScrollPos > currentScrollPos ? navBar.style.top = '0' : navBar.style.top = '-120px'
+                prevScrollPos > currentScrollPos ? navBar.style.top = '0' : navBar.style.top = '-220px'
+                prevScrollPos > currentScrollPos ? hiddenDiv.style.display = 'flex' : hiddenDiv.style.display = 'none';
                 prevScrollPos = currentScrollPos
+            } else if (currentScrollPos < 55) {
+                hiddenDiv.style.display = 'none';
             }
         })
     </script>
