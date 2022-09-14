@@ -1480,6 +1480,7 @@
             let currentScrollPos = window.pageYOffset
             if (currentScrollPos > 100) {
                 prevScrollPos > currentScrollPos ? navBar.style.top = '0' : navBar.style.top = '-220px'
+                prevScrollPos > currentScrollPos ? hiddenDiv.style.display = 'flex' : hiddenDiv.style.display = "none";
                 prevScrollPos = currentScrollPos
             } else if (currentScrollPos < 55) {
                 hiddenDiv.style.height = 'none';
