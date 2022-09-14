@@ -1189,6 +1189,8 @@ h5.nav-links-heading-featured {
 
 .footer-wrapper p {
     margin-bottom: 0;
+    color: white;
+    text-decoration: none;
 }
 
 .footer-wrapper h5 {
