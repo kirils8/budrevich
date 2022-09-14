@@ -1257,7 +1257,7 @@ ul.footer-menu li a {
 }
 
 .insta-feed-grid-box img {
-    border-radius: none;
+    border-radius: 0;
 }
 
 @keyframes footerScaleArrow {
@@ -1902,6 +1902,10 @@ ul.footer-menu li a {
     .insta-feed-grid {
         row-gap: unset;
         column-gap: unset;
+    }
+
+    .insta-feed-section  .max-width-wrapper {
+        margin: 0;
     }
 
     /* Footer */
