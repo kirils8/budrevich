@@ -1256,6 +1256,10 @@ ul.footer-menu li a {
     bottom: 5px;
 }
 
+.insta-feed-grid-box img {
+    border-radius: none;
+}
+
 @keyframes footerScaleArrow {
     0% {
         transform: scale(0.9) translate3d(0, 0px, 0);
