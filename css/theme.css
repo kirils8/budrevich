@@ -254,6 +254,10 @@ body .d-ios-show {
     margin-bottom: 20px;
 }
 
+body .desk-hide {
+    display: none;
+}
+
 /* TOP BAR */
 .top-info-bar-cont {
     background: #404759;
@@ -680,6 +684,7 @@ h5.nav-links-heading-featured {
 
 .as-seen-on-grid-box a img {
     vertical-align: middle;
+    border-radius: 0;
 }
 
 /* GUIDE TO DIAMONDS & GIA */
@@ -1386,6 +1391,10 @@ ul.footer-menu li a {
         display: none;
     }
 
+    body .desk-hide {
+        display: block;
+    }
+
     .d-desk-show {
         display: none;
     }
@@ -1579,6 +1588,49 @@ ul.footer-menu li a {
         margin-left: auto;
         width: 100%;
         max-width: 139px;
+    }
+
+    /* As Seen On */
+    .as-seen-on-cont .mgn-lr-64px {
+        margin: 0;
+    }
+
+    .as-seen-on-wrapper {
+        height: 36px;
+        transition: all 1s;
+        overflow: hidden;
+        display: block;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
+
+    .as-seen-on-grid {
+        width: fit-content;
+        display: flex;
+        position: relative;
+        animation: AsSeenOn 40s linear infinite;
+        animation-play-state: running;
+        height: 100%;
+        align-items: center;
+    }
+
+
+    .as-seen-on-grid-box a img {
+        vertical-align: middle;
+        max-width: unset;
+        height: 36px;
+    }
+
+    @keyframes AsSeenOn {
+        0% {
+            transform: translateX(0)
+        }
+
+        100% {
+            transform: translateX(-25%)
+        }
     }
 
     /* Diamonds Guide GIA */

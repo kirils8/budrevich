@@ -474,6 +474,7 @@
                     <div class="title-center-h2 txt-cntr">
                         <h5>As seen on:</h5>
                     </div>
+
                     <div class="as-seen-on-wrapper">
                         <div class="as-seen-on-grid">
                             <div class="as-seen-on-grid-box">
@@ -502,6 +503,70 @@
                                 </a>
                             </div>
                             <div class="as-seen-on-grid-box">
+                                <a href="">
+                                    <img src="img/country-town-house.png" alt="" />
+                                </a>
+                            </div>
+
+                            <!-- 768px duplicate content -->
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/international-property-travel.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/the-telegraph.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/msn-logo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/professional-jeweller-logo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/hello-magazine-logo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/country-town-house.png" alt="" />
+                                </a>
+                            </div>
+
+                            <!-- 768px duplicate content -->
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/international-property-travel.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/the-telegraph.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/msn-logo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/professional-jeweller-logo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
+                                <a href="">
+                                    <img src="img/hello-magazine-logo.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="as-seen-on-grid-box desk-hide">
                                 <a href="">
                                     <img src="img/country-town-house.png" alt="" />
                                 </a>
@@ -1415,10 +1480,11 @@
             let currentScrollPos = window.pageYOffset
             if (currentScrollPos > 100) {
                 prevScrollPos > currentScrollPos ? navBar.style.top = '0' : navBar.style.top = '-220px'
-                prevScrollPos > currentScrollPos ? hiddenDiv.style.display = 'flex' : hiddenDiv.style.display = 'none';
                 prevScrollPos = currentScrollPos
             } else if (currentScrollPos < 55) {
-                hiddenDiv.style.display = 'none';
+                hiddenDiv.style.height = 'none';
+            } else {
+                hiddenDiv.style.height = 'flex';
             }
         })
     </script>
